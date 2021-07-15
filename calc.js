@@ -30,6 +30,14 @@ reader.question("What would you like to calculate?", function(input){
 	if (mathSymbol === "root"){
 		console.log(Math.sqrt(num1));
 	}
+	if (mathSymbol === "cube"){
+		console.log(Math.cbrt(num1));
+	}
+	if (mathSymbol === "pow"){
+		console.log(pow(num1));
+	}
+	if (mathSymbol === "%"){
+	console.log()}
 
 
 	//console.log('mathSymbol', mathSymbol);//
